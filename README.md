@@ -1,8 +1,5 @@
 # jQuery UI Bundle for Symfony2
-
-## Current Version
-
-jQuery UI v1.10.3
+Originally taken from https://github.com/bmatzner/BmatznerJQueryUIBundle
 
 ## Installation
 
@@ -14,7 +11,7 @@ jQuery UI v1.10.3
 {
     "require": {
         // ...
-        "bmatzner/jquery-ui-bundle": "*"
+        "auro/jquery-ui-bundle": "*"
     }
 }
 ```
@@ -28,7 +25,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new Bmatzner\JQueryUIBundle\BmatznerJQueryUIBundle(),
+        new Auro\JQueryUIBundle\AuroJQueryUIBundle(),
         // ...
     );
 }
@@ -37,7 +34,7 @@ public function registerBundles()
 ### Download the bundle using Composer
 
 ``` bash
-$ php composer.phar update bmatzner/jquery-ui-bundle
+$ php composer.phar update auro/jquery-ui-bundle
 ```
 
 ### Install assets
@@ -59,15 +56,15 @@ $ php app/console assets:install --symlink web
 Load a jQuery UI theme, for instance one of the included default themes
 
 ``` html
-<link rel="stylesheet" type="text/css" href="{{ asset('bundles/bmatznerjqueryui/css/smoothness/jquery-ui.css') }}" />
-<link rel="stylesheet" type="text/css" href="{{ asset('bundles/bmatznerjqueryui/css/smoothness/jquery.ui.theme.css') }}" />
+<link rel="stylesheet" type="text/css" href="{{ asset('bundles/aurojqueryui/css/smoothness/jquery-ui.css') }}" />
+<link rel="stylesheet" type="text/css" href="{{ asset('bundles/aurojqueryui/css/smoothness/jquery.ui.theme.css') }}" />
 ```
 
 Load jQuery and jQuery UI
 
 ``` html
-<script type="text/javascript" src="{{ asset('bundles/bmatznerjquery/js/jquery.min.js') }}"></script>
-<script type="text/javascript" src="{{ asset('bundles/bmatznerjqueryui/js/minified/jquery-ui.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/aurojquery/js/jquery.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/aurojqueryui/js/minified/jquery-ui.min.js') }}"></script>
 ```
 
 ## Licenses

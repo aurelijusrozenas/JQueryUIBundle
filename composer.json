@@ -1,5 +1,5 @@
 {
-    "name":        "bmatzner/jquery-ui-bundle",
+    "name":        "auro/jquery-ui-bundle",
     "type":        "symfony-bundle",
     "description": "jQuery UI Bundle for Symfony2",
     "keywords":    ["jquery", "javascript", "ui", "symfony"],
@@ -7,19 +7,17 @@
     "license":     ["MIT", "GPLv2"],
     "authors":     [
         {
-            "name":     "Bernd Matzner",
-            "email":    "bernd@matznermatzner.de",
-            "homepage": "http://berndmatzner.de"
+            "name":     "Aurelijus Rozenas",
+            "email":    "aurelijus@rozenas.lt"
         }
     ],
     "require":     {
-        "symfony/framework-bundle": ">=2.1",
-        "bmatzner/jquery-bundle":  "*"
+        "symfony/framework-bundle": ">=2.1"
     },
     "autoload":    {
         "psr-0": {
-            "Bmatzner\\JQueryUIBundle": ""
+            "Auro\\JQueryUIBundle": ""
         }
     },
-    "target-dir":  "Bmatzner/JQueryUIBundle"
+    "target-dir":  "Auro/JQueryUIBundle"
 }
